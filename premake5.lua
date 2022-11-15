@@ -8,12 +8,6 @@ project "Tolk"
 	filter "system:windows"
         systemversion "latest"
         staticruntime "on"
- 
-    libdirs
-	{
-		"libs/x64",
-		"libs/x86"
-	}
 
     defines
     {
